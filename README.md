@@ -9,3 +9,4 @@ Frontend:-
 2. CSS (For stylesheet)
 3. Java Script (For connectivity & backend)
 4. Node JS and Express JS (For Backend)
+5. SQL (for Database)

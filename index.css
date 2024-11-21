@@ -1,0 +1,336 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Team Section */
+.team-section {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.wrapper {
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.place {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Content Section */
+.content {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #45a049;
+}
+
+/* Icons Section */
+.icons {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.icons li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.icons li a:hover {
+    color: #4CAF50;
+}
+
+/* Position Section */
+.position {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: indigo;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 2px;
+    background-color: indigo;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper, .content, .icons {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .btn button {
+        width: 100%;
+    }
+}
+ /* <style class="cp-pen-styles">
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  animation: bg_animate 50s infinite linear;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes bg_animate {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 100vw;
+  }
+}
+
+.open {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 50px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  z-index: 1000;
+}
+
+.open:hover {
+  opacity: 0.8;
+}
+
+.open span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  z-index: 100;
+}
+
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 900;
+}
+
+.open span:nth-child(2) {
+  margin-top: 25px;
+}
+
+.open span:nth-child(3) {
+  margin-top: 40px;
+}
+
+.sub-menu {
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(172, 31, 137, 0.993);
+  border-radius: 50%;
+  z-index: 180;
+  overflow: hidden;
+}
+
+.sub-menu li {
+  display: block;
+  float: right;
+  clear: both;
+  height: auto;
+  margin-right: -160px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child {
+  margin-top: 180px;
+}
+
+/* .sub-menu li:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+}
+
+.sub-menu li:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+}
+
+.sub-menu li:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+}
+
+.sub-menu li:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+}
+
+.sub-menu li:nth-child(5) {
+  -webkit-transition-delay: 0.25s;
+} */
+
+/* .sub-menu li a {
+  color: #fff;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 40px;
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 400px;
+  width: 400px;
+}
+
+.oppenned span:nth-child(2) {
+  overflow: visible;
+}
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+  z-index: 1000;
+  transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) {
+  transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+
+.oppenned span:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  right: -160px;
+  top: -160px;
+  border-radius: 50%;
+  background-color: rgba(172, 31, 137, 0.993);
+}
+
+.oppenned span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+
+.oppenned li {
+  margin-right: 168px;
+}
+</style>
+<link rel="stylesheet" href="scripts/cardstyles.css" />
+<script
+type="text/javascript"
+async
+src="http://www.google-analytics.com/ga.js"
+></script>
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202411140101/show_ads_impl_fy2021.js"></script>
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/143797/Projector.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/143797/CanvasRenderer.js"></script>
+<link rel="stylesheet" href="scripts/bg.css" />
+<meta
+http-equiv="origin-trial"
+content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+/>
+<meta
+http-equiv="origin-trial"
+content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+/><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+</head>  */ 
