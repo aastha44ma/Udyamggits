@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color */
+}
+
+header {
+    background: linear-gradient(135deg, #6e7dff, #4d5bff); /* Cool gradient background */
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.college-logo, .ecell-logo {
+    width: 60px; /* Adjust width as needed */
+}
+
+#ambition-section {
+    background: #ffffff; /* White background for the section */
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a; /* Darker color for headings */
+    text-align: center;
+}
+
+h3 {
+    color: #35424a;
+    margin-top: 20px;
+    text-align: center; /* Center align the heading */
+}
+
+.ambition-box {
+    background: #e7f1ff; /* Soft blue background for the ambition box */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #6e7dff; /* Border matching the header gradient */
+}
+
+.key-points {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between points */
+    margin-top: 20px;
+}
+
+.point-box {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient for key points */
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px; /* Fixed width for uniformity */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a; /* Dark footer background */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
