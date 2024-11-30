@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igniting Ideas</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            background-color: #7455e1;
+            color: #090909;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #181818;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .hero {
+                margin-top: 10px;                
+                justify-content: center;
+                align-items: left;
+                font width: bold;
+                color: #fff; 
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Main Section */
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 50px;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #ccc;
+            max-width: 500px;
+        }
+
+        .content .btn {
+            display: inline-block;
+            padding: 18px 25px;
+            font-size: 18px;
+            color: #111;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 5s ease;
+        }
+
+        .content .btn:hover {
+            background-color: #e6b800;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #181818;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <hero>
+            <!--left content-->
+            <img width=35px src="WhatsApp Image 2024-11-28 at 19.13.03_3fc08f0a.jpg"  alt="udyam ecell" >
+        </hero>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Initiatives</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <!-- Left Content -->
+            <div class="content">
+                <h1>Igniting Ideas, Shaping Futures</h1>
+                <p>
+                    Driven by innovation and a passion for entrepreneurship, 
+                    we strive to empower students to turn their visions into ventures.
+                </p>
+                <a href="#" class="btn">Join Us</a>
+            </div>
+
+            <!-- Right Image -->
+            <div class="image-container">
+                <img src="WhatsApp Image 2024-11-30 at 19.49.40_81b3b9d4.jpg" alt="Udyam Logo">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ecell GGITS. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
